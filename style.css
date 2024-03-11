@@ -1,0 +1,44 @@
+#preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+  }
+  
+  .image-preview {
+    margin: 5px;
+    position: relative;
+  }
+  
+  .image-preview img {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  .image-preview:hover .delete-button {
+    opacity: 1;
+  }
+  
+  .fa-upload{
+    margin: auto;
+    
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
